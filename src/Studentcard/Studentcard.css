@@ -1,0 +1,79 @@
+.students-container{
+  border: 5px solid #456882;
+  border-radius: 20px;
+  min-width: 50%;
+  padding: 40px;
+  cursor: pointer;
+  margin: 40px 100px ;
+  width: 450px ;
+  height: 180px;
+ position: relative;
+ transition:box-shadow 0.5s ;
+}
+.students-container:hover{
+ box-shadow: -6px -6px 1px 1px #456882;
+}
+.students-photo{
+  height: 150px;
+  width: 150px;
+  margin-left: 380px;
+  margin-top:-60px;
+  position: absolute;
+  transition: box-shadow 0.5s;
+  border-radius: 50%;
+}
+.students-photo:hover{
+  height: 160px;
+  width: 160px;
+  box-shadow: 6px 6px 1px 0px #456882;
+  border-radius: 50%;
+}
+.student-other-container{
+  font-size: 20px;
+  color: #1B3C53;
+}
+.btn-container{
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1B3C53;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-top: -10px;
+  margin-left:400px;
+  border-radius: 10px;
+  border: 4px solid #456882;
+}
+.btn-container:hover{
+box-shadow: 3px 2px 1px 0 #104064;
+}
+
+
+@media (max-width: 600px){
+  .students-container{
+    width: 250px ;
+  height: 160px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 20px;
+  }
+  .btn-container{
+    background: #456882;
+  font-size: 15px;
+  padding:6px;
+  margin-left:330px;
+  border-radius: 25px;
+  border: 3px solid #456882;
+}
+.students-photo{
+  height: 70px;
+  width: 70px;
+  margin-left: 350px;
+  margin-top:-40px;
+}
+.students-photo:hover{
+   height: 80px;
+  width: 80px;
+}
+ 
+}
